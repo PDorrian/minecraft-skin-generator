@@ -24,13 +24,13 @@ Overall the generated skins were not of particularly high quality, although I do
 One idea that I would implement if I had more time would be to convert the images to HSV or a similar format. I think this would help reduce noise in the GAN as it appeared that sometimes the correct structure was there but the RGB colour channels simply weren't lining up. A loss function better designed for multichannel images such as SSIM may also be worth investigation.
 
 ### Auto-encoder
-![Auto-encoder](https://github.com/PDorrian/minecraft-skin-generator/figures/ae_generation.png)
+![Auto-encoder](https://github.com/PDorrian/minecraft-skin-generator/blob/main/figures/ae_generation.png)
 
 ### Variational Auto-encoder
-![Variational auto-encoder](https://github.com/PDorrian/minecraft-skin-generator/figures/vae_generation.png)
+![Variational auto-encoder](https://github.com/PDorrian/minecraft-skin-generator/blob/main/figures/vae_generation.png)
 
 ### Generative Adversarial Network
-![Generative adversarial network](https://github.com/PDorrian/minecraft-skin-generator/figures/gan_generation.png)
+![Generative adversarial network](https://github.com/PDorrian/minecraft-skin-generator/blob/main/figures/gan_generation.png)
 
 ## Future Features
 - Improve quality of generated skins.
